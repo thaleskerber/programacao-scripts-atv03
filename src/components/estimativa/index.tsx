@@ -12,7 +12,7 @@ export function Estimativa(props: any) {
     return (
         <>
             <WrapperEstimativaSld>
-            Estimativa de prêmio do próximo concurso. Sorteio em {props.item.data}:
+            Estimativa de prêmio do próximo concurso. Sorteio em {props.item.dataProximoConcurso}:
             </WrapperEstimativaSld>
             <ValorPremioSld color={theme.loteria}>{converterValor(props.item.valorEstimadoProximoConcurso)}</ValorPremioSld>
         </>
